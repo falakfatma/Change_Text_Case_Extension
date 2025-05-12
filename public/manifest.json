@@ -1,0 +1,14 @@
+{
+    "name": "case-changer",
+    "description": "You can change the case of the selected text to uppercase, lowercase, or title case.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "logo192.png",
+        "48": "logo192.png",
+        "128": "logo512.png"
+      }
+    }
+  }

@@ -1,0 +1,46 @@
+
+.app-container {
+  width: 280px;
+  padding: 16px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #f6efef;
+  color: #333;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.text-input {
+  resize: none;
+  font-size: 0.9rem;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+button {
+  flex: 1;
+  padding: 8px;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.popup-buttons button:hover {
+  background-color: #0056b3;
+}
